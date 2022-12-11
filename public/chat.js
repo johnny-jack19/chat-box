@@ -1,5 +1,5 @@
 const url = "https://jackson-chat-api.herokuapp.com";
-const loginPage = "http://127.0.0.1:5000/login.html";
+const loginPage = "https://jackson-chat.herokuapp.com/login.html";
 
 //****************************Fetchs****************************************************
 //Get users

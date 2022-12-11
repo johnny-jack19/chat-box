@@ -31,7 +31,7 @@ function login(loginInfo) {
             sessionStorage.setItem("session", data.session);
           })
           .then(() => {
-            location.assign("http://127.0.0.1:5000");
+            location.assign("https://jackson-chat.herokuapp.com/");
           });
       } else {
         document.getElementById("reg-error").classList.remove("hidden");
