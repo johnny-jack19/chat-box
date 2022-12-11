@@ -329,7 +329,7 @@ label:nth-child(2) {
     position: relative;
     width: 85%;
     height: calc(100vh - 10em);
-    padding-bottom: 1em;
+    padding-bottom: 2em;
   }
 
   .chat-text {
@@ -455,7 +455,7 @@ label:nth-child(2) {
 
   #message-container {
     position: fixed;
-    bottom: 1.5em;
+    bottom: 0.5em;
     width: 90%;
     margin: auto;
     margin-left: -0.8em;
