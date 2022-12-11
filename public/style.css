@@ -326,10 +326,9 @@ label:nth-child(2) {
 
   /* Main page  */
   #chat-container {
-    position: relative;
     width: 85%;
     height: calc(100vh - 10em);
-    padding-bottom: 2em;
+    padding-bottom: 1em;
   }
 
   .chat-text {
@@ -353,7 +352,6 @@ label:nth-child(2) {
   }
 
   #message-container {
-    position: fixed;
     bottom: 0.5em;
     width: 90%;
     margin: auto;
@@ -429,10 +427,9 @@ label:nth-child(2) {
 
   /* Main page */
   #chat-container {
-    position: relative;
     width: 85%;
-    height: calc(100vh - 11em);
-    padding-bottom: 3em;
+    height: calc(100vh - 11.5em);
+    padding-bottom: 1em;
   }
 
   .chat-text {
@@ -454,7 +451,6 @@ label:nth-child(2) {
   }
 
   #message-container {
-    position: fixed;
     bottom: 0.5em;
     width: 90%;
     margin: auto;

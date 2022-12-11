@@ -177,6 +177,10 @@ messageText.addEventListener("keydown", (e) => {
   }
 });
 
+messageText.addEventListener("click", (e) => {
+  scrollToBottom();
+});
+
 setInterval(() => {
   if (currentChatSelected) {
     const newMessage = chatData.length;
