@@ -428,8 +428,8 @@ label:nth-child(2) {
   /* Main page */
   #chat-container {
     width: 85%;
-    height: calc(100vh - 11.5em);
-    padding-bottom: 1em;
+    height: calc(100vh - 11em);
+    padding-bottom: 1.5em;
   }
 
   .chat-text {
