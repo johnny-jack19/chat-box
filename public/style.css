@@ -327,7 +327,7 @@ label:nth-child(2) {
   /* Main page  */
   #chat-container {
     width: 85%;
-    height: calc(100vh - 10em);
+    height: calc(100vh - 12em);
     padding-bottom: 1em;
   }
 
@@ -428,7 +428,7 @@ label:nth-child(2) {
   /* Main page */
   #chat-container {
     width: 85%;
-    height: calc(100vh - 11em);
+    height: calc(100vh - 13em);
     padding-bottom: 1.5em;
   }
 
