@@ -327,8 +327,8 @@ label:nth-child(2) {
   /* Main page  */
   #chat-container {
     width: 85%;
-    height: calc(100vh - 12em);
-    padding-bottom: 2em;
+    height: calc(100vh - 13em);
+    padding-bottom: 1em;
   }
 
   .chat-text {
@@ -489,6 +489,11 @@ label:nth-child(2) {
 }
 
 @media screen and (min-width: 700px) and (max-width: 1100px) {
+  #chat-container {
+    height: calc(100vh - 13em);
+    padding-bottom: 1em;
+  }
+
   .desktop-hidden {
     display: block;
   }
