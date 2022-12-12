@@ -1,7 +1,9 @@
 # chat-box
 This is a messaging website.  All users can message any other user by clicking on their name.
 
-The live site is hosted HERE
+*****Mobile and tablet verisons are currently being tested and styled*****
+
+The live site is hosted [https://jackson-chat.herokuapp.com/](https://jackson-chat.herokuapp.com/)
 
 This website connects to an api found at [https://github.com/johnny-jack19/chat](https://github.com/johnny-jack19/chat)
 
