@@ -5,7 +5,7 @@ This is a messaging website.  All users can message any other user by clicking o
 
 The live site is hosted [https://jackson-chat.herokuapp.com/](https://jackson-chat.herokuapp.com/)
 
-This website connects to an api found at [https://github.com/johnny-jack19/chat](https://github.com/johnny-jack19/chat)
+This website connects to an API found at [https://github.com/johnny-jack19/chat](https://github.com/johnny-jack19/chat)
 
 To get started:
 1. Click the "Sign up" button on the login page (if you have already signed up skip to step 3)
