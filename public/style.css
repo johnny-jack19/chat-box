@@ -269,8 +269,8 @@ label:nth-child(2) {
   border-radius: 10px;
   cursor: pointer;
 }
-/* media query at 1100px, 700px for register page*/
 
+/****************Media queries************/
 @media screen and (max-width: 450px) {
   /* Universal */
   h1 {
@@ -335,7 +335,7 @@ label:nth-child(2) {
     padding: 0.5em;
     font-size: medium;
     width: 75%;
-    margin-bottom: 0.5em;
+    margin-bottom: 0em;
   }
 
   .desktop-hidden {
@@ -352,7 +352,7 @@ label:nth-child(2) {
   }
 
   #message-container {
-    bottom: 0;
+    bottom: 0.2em;
     width: 90%;
     margin: auto;
     margin-left: -0.5em;
@@ -428,7 +428,7 @@ label:nth-child(2) {
   /* Main page */
   #chat-container {
     width: 85%;
-    height: calc(100vh - 13em);
+    height: calc(100vh - 13.5em);
     padding-bottom: 1.5em;
   }
 
@@ -451,7 +451,7 @@ label:nth-child(2) {
   }
 
   #message-container {
-    bottom: 0.5em;
+    bottom: 0.2em;
     width: 90%;
     margin: auto;
     margin-left: -0.8em;
@@ -501,7 +501,7 @@ label:nth-child(2) {
   #message-container {
     width: 75%;
     margin: auto;
-    bottom: 0;
+    bottom: 0.2em;
   }
 
   #message-text {
