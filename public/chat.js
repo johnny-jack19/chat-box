@@ -159,6 +159,9 @@ function addIcon(userID) {
 
 //***********Messages*********
 function makeMessage() {
+  if (!messageText.value) {
+    return;
+  }
   const message = {
     user_id: sessionStorage.getItem("user"),
     message: messageText.value,
@@ -192,11 +195,11 @@ setInterval(() => {
       }
     }, 1000);
   }
-}, 15000);
+}, 5000);
 
 const chatContainer = document.getElementById("chat-container");
 function scrollToBottom() {
-  chatContainer.scrollTop = chatContainer.scrollHeight;
+  chatBox.scrollTop = chatBox.scrollHeight;
 }
 
 function logout() {

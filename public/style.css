@@ -26,21 +26,27 @@ h1 {
 }
 
 /*********************Main page******************************/
+#chat-box {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  height: 90%;
+  overflow: auto;
+  padding-top: 10px;
+}
+
 #chat-container {
+  position: relative;
   background-color: #efebe6;
   width: 75%;
   margin: auto;
-  height: calc(100vh - 12em);
-  overflow: auto;
+  height: calc(100vh - 9em);
   border-radius: 20px;
   padding: 1em;
-  padding-bottom: 3em;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  padding-top: 0;
   margin-top: 0.5em;
 }
 
-#chat-container::-webkit-scrollbar {
+#chat-box::-webkit-scrollbar {
   display: none;
 }
 
@@ -91,11 +97,11 @@ h1 {
 
 #message-container {
   position: absolute;
-  bottom: 1.5em;
-  width: 70%;
+  bottom: 1em;
+  width: 95%;
+  margin: auto;
   display: flex;
   justify-content: space-around;
-  margin-left: 2em;
 }
 
 #message-text {
@@ -325,10 +331,14 @@ label:nth-child(2) {
   }
 
   /* Main page  */
+  #chat-box {
+    height: 92%;
+  }
+
   #chat-container {
     width: 85%;
-    height: calc(100vh - 13.5em);
-    padding-bottom: 2em;
+    height: calc(100vh - 8em);
+    padding-bottom: 0.5em;
   }
 
   .chat-text {
@@ -352,10 +362,9 @@ label:nth-child(2) {
   }
 
   #message-container {
-    bottom: 0.2em;
+    bottom: 0.5em;
     width: 90%;
-    margin: auto;
-    margin-left: -0.5em;
+    margin-left: -0.3em;
   }
 
   #message-text {
@@ -426,12 +435,6 @@ label:nth-child(2) {
   }
 
   /* Main page */
-  #chat-container {
-    width: 85%;
-    height: calc(100vh - 13.5em);
-    padding-bottom: 1.5em;
-  }
-
   .chat-text {
     font-size: large;
     width: 75%;
@@ -451,10 +454,7 @@ label:nth-child(2) {
   }
 
   #message-container {
-    bottom: 0.2em;
-    width: 90%;
-    margin: auto;
-    margin-left: -0.8em;
+    bottom: 0.5em;
   }
 
   #message-text {
@@ -489,19 +489,12 @@ label:nth-child(2) {
 }
 
 @media screen and (min-width: 700px) and (max-width: 1100px) {
-  #chat-container {
-    height: calc(100vh - 13.5em);
-    padding-bottom: 2em;
-  }
-
   .desktop-hidden {
     display: block;
   }
 
   #message-container {
-    width: 75%;
-    margin: auto;
-    bottom: 0.2em;
+    bottom: 0.5em;
   }
 
   #message-text {
