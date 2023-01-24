@@ -118,6 +118,10 @@ h1 {
   margin-left: auto;
 }
 
+.sending {
+  background-color: #4f5755;
+}
+
 #submit-message {
   font-size: large;
   width: 6%;

@@ -169,7 +169,7 @@ function makeMessage() {
   messageText.value = "";
   sendMessage(message);
   chatBox.innerHTML += `
-  <p class="my-chat chat-text">${message.message}</p>
+  <p class="my-chat chat-text sending">SENDING...${message.message}</p>
   `;
   scrollToBottom();
 }
@@ -195,7 +195,7 @@ setInterval(() => {
       }
     }, 1000);
   }
-}, 5000);
+}, 3000);
 
 const chatContainer = document.getElementById("chat-container");
 function scrollToBottom() {
